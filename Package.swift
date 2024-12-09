@@ -4,9 +4,7 @@ import PackageDescription
 let package = Package(
     name: "SVGKit",
     platforms: [
-        .macOS(.v10_10),
-        .iOS(.v13),
-        .tvOS(.v13)
+        .macOS(.v12)
     ],
     products: [
         .library(
